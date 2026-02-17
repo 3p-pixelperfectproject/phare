@@ -989,7 +989,7 @@ p {
 }
  
 .transform12bisDoc {
-    transform: translate(60px, -330px);
+    transform: translate(60px, 150px);
 }
  
 .transform1bis {
@@ -1111,6 +1111,17 @@ p {
 }
  
  
+.backspecialGREEN {
+ 
+    background-color: #AFE528;
+    border: solid, #567603;
+    border-radius: 20px;
+    opacity: 0.2;
+    
+   
+ 
+ 
+}
  
 .sizeSpe {
  
