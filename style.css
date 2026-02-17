@@ -55,8 +55,17 @@ body {
     overflow-x: hidden;
  
 }
+
+.body2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #1e1e2a;
+    overflow-x: hidden;
  
-.violet
+}
+ 
+
 /*-------------------------------------------------------------------------------------------*/
  
 /* ce que j'apelle les inchangés*/
@@ -374,6 +383,10 @@ deux dimensions diponibles 1000 et 800 */
 .size-30 {
     font-size: 30px;
 }
+
+.size-40 {
+    font-size: 40px;
+}
  
 /* mes tailles de padding*/
 .padding-5 {
@@ -639,6 +652,10 @@ deux dimensions diponibles 1000 et 800 */
 .txt-white {
     color: white;
 }
+
+.txt-green {
+    color: #AFE528;
+}
  
 .capsule {
  
@@ -667,6 +684,18 @@ header {
     top: 50px;
     width: 100%;
     border-radius: 10px;
+    
+}
+
+header2 {
+    background-color: #AFE528;
+    position: fixed;
+    z-index: 1;
+    left: 50px ;
+    top: 50px;
+    width: 100%;
+    border-radius: 10px;
+    
 }
  
  
@@ -700,6 +729,12 @@ header {
     background-color: #6B42C6;
     color: white;
 }
+
+.section-hero2 {
+    background-color: #1e1e2a;
+    color: white;
+}
+
  
 .section-hero-telechargement {
        background-image: url(assets/groupe_perso.png);
@@ -1100,7 +1135,7 @@ p {
  
  
 .transform-section3-1 {
-    transform: translate(60px, 160px);
+    transform: translate(-10px, 160px);
     z-index: 1;
  
 }
@@ -1119,7 +1154,7 @@ p {
 }
  
 .transform-section4-1 {
-    transform: translate(-80px, 160px);
+    transform: translate(20px, 160px);
  
  
  
@@ -1397,10 +1432,7 @@ p {
 /*-------------------------------------------------------------------------------------------*/
 /* footer*/
  
-.footer {
-    background-color: #996830;
-    color: white;
-}
+
  
 .counter-wrapper {
   text-align: center;
@@ -1502,10 +1534,7 @@ p {
 }
  
 .bgFooter {
-    background: linear-gradient(to bottom,
-            #56108D 0%,
-            #56108D 34%,
-            #260356 100%);
+    background:#260356
 }
  
 .policeEpilogue {
@@ -1741,4 +1770,9 @@ margin-top: 100px;
    
     border: solid, #9C30F0;
    
+}
+
+.cache {
+    background-color: #1a1a1a;
+    border-radius: 10px;
 }
